@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service name="e1401184_4_23testing1">
+
+<description>
+
+SOAP Database Communication Service
+
+</description>
+
+<operation name="GetDBQueryResult">
+
+<messageReceiver class="org.apache.axis2.receivers.RawXMLINOutMessageReceiver"/>
+
+</operation>
+
+<operation name="GetWeatherResult">
+
+<messageReceiver class="org.apache.axis2.receivers.RawXMLINOutMessageReceiver"/>
+
+</operation>
+
+<parameter name="ServiceClass">db.service.SOAPDBService</parameter>
+
+</service>
