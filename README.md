@@ -1,2 +1,1 @@
-# SOAP-client-server-application-using-AXIOM
-digital guestbook
+ SOAP client server application using AXIOM, which works as a digital guestbook. The client application allow the user to send his/her name, comment and the date of visit to the server and get all or individual guest information based on guest name. The server application write and read guest data from a MySQL database  . The client application is a Java Windows application which provided appropriate interfaces for sending data and displaying received data from the server.
